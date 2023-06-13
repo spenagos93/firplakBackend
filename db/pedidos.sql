@@ -27,7 +27,7 @@ VALUES
   ('pendiente', 'Cliente 1'),
   ('completado', 'Cliente 2'),
   ('parcialmente despachado', 'Cliente 3'),
-  ('pendiente', 'Cliente 4'),
+  ('completado', 'Cliente 4'),
   ('completado', 'Cliente 5');
 
 --sentencia para seleccionar todos los pedidos
