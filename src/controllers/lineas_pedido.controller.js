@@ -7,7 +7,7 @@ export const obtenerLineasPedidos = async (request, response) => {
     const { id } = request.params;
 
     const [result] = await pool.query(
-      "SELECT * FROM lineas_pedido WHERE id = ?",
+      "SELECT * FROM lineas_pedido WHERE pedido_id = ?",
       [id]
     );
 
